@@ -70,6 +70,7 @@ CIDR is a **flexible IP allocation system** that optimizes routing efficiency an
 ---
 
 ## ⚙️ VPC Configuration Workflow
+
 ```mermaid
 flowchart TD
     A[VPC (Name + CIDR + Tenancy)] --> B[Availability Zones]
@@ -79,3 +80,4 @@ flowchart TD
     D --> F[Internet Gateway (Public Subnets)]
     E --> G[DNS Options (Enable DNS Hostnames + Resolution)]
     F --> G[DNS Options (Enable DNS Hostnames + Resolution)]
+
