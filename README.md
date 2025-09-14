@@ -69,15 +69,24 @@ CIDR is a **flexible IP allocation system** that optimizes routing efficiency an
 
 ---
 
-## ⚙️ VPC Configuration Workflow
 
-```mermaid
-flowchart TD
-    A[VPC (Name + CIDR + Tenancy)] --> B[Availability Zones]
-    B --> C[Subnets (Public & Private)]
-    C --> D[Route Tables]
-    D --> E[NAT Gateways (Private Subnets)]
-    D --> F[Internet Gateway (Public Subnets)]
-    E --> G[DNS Options (Enable DNS Hostnames + Resolution)]
-    F --> G[DNS Options (Enable DNS Hostnames + Resolution)]
+---
+
+### ✅ If Mermaid still doesn’t render  
+Here’s the **always-working ASCII fallback**:
+
+```markdown
+## ⚙️ VPC Configuration Workflow (Text View)
+
+VPC (Name + CIDR + Tenancy)
+   ↓
+Availability Zones
+   ↓
+Subnets (Public & Private)
+   ↓
+Route Tables
+   ↓
+NAT Gateways (Private Subnets) → DNS Options (Enable DNS Hostnames + Resolution)
+   ↓
+Internet Gateway (Public Subnets) → DNS Options (Enable DNS Hostnames + Resolution)
 
