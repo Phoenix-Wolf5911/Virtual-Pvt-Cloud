@@ -72,8 +72,7 @@ CIDR is a **flexible IP allocation system** that optimizes routing efficiency an
 
 ---
 
-### ✅ If Mermaid still doesn’t render  
-Here’s the **always-working ASCII fallback**:
+## ⚙️ VPC Configuration Workflow
 
 ```markdown
 ## ⚙️ VPC Configuration Workflow (Text View)
