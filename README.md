@@ -75,7 +75,7 @@ CIDR is a **flexible IP allocation system** that optimizes routing efficiency an
 ## ⚙️ VPC Configuration Workflow
 
 ```markdown
-## ⚙️ VPC Configuration Workflow (Text View)
+## ⚙️ VPC Configuration Workflow
 
 VPC (Name + CIDR + Tenancy)
    ↓
